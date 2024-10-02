@@ -1,0 +1,69 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 1rem 0;
+}
+
+#game-header {
+    margin-bottom: 20px;
+}
+
+#game-container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-height: 60vh; /* Fixed height */
+}
+
+#results {
+    background-color: #f8f9fa;
+    padding: 10px;
+}
+
+.team-controls {
+    padding: 1rem;
+    border-top: 1px solid #ddd;
+}
+
+.buzzer-image {
+    position: relative;
+}
+
+#countdown-timer {
+    font-size: 24px;
+    color: red;
+}
+
+.btn-primary {
+    border-radius: 5px;
+}
+
+.btn-secondary {
+    border-radius: 5px;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Change button color on hover */
+}
+
+.btn-secondary:hover {
+    background-color: #0056b3; /* Change button color on hover */
+}
+
+.nav-link:hover {
+    color: #0056b3; /* Change nav link color on hover */
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 576px) {
+    .team-controls {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
